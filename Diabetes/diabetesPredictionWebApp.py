@@ -5,7 +5,7 @@ import streamlit as st
 import pipreqs
 
 #loading save model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.pkl', 'rb'))
 
 def diabetesPrediction(input):
     # changing the input_data to numpy array
